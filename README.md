@@ -6,8 +6,7 @@ Machine Learning Coursework 1 — Regression prediction challenge.
 
 - `data/` — Training and test datasets
 - `notebooks/` — EDA, model selection, and final model training
-- `outputs/` — Submission CSV and model comparison figures
-- `CW1_eval_script.py` — Optional local baseline/evaluation script (not required for final submission)
+- `outputs/` — Directory for final generated CSV file and model comparison figures
 
 ## Setup
 
@@ -22,5 +21,5 @@ pip install -r requirements.txt
 3. Run `notebooks/03_final_model.ipynb`
 
 Notes:
-- Notebooks now resolve the project root automatically when run from either repo root or `notebooks/`.
+- Notebooks  resolve the project root automatically when run from either repo root or `notebooks/`.
 - `xgboost` and `lightgbm` are required (validated at notebook start).
