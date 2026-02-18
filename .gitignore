@@ -19,3 +19,7 @@ Thumbs.db
 .idea/
 
 catboost_info/
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
